@@ -2,6 +2,9 @@ module.exports = {
   title: 'Hello VuePress',
   description: 'Just test',
   themeConfig: {
+    nav: [
+      { text: '联系我', link: '/navigator/navigator' },
+    ],
     sidebar: [
       {
         title: '数据库',
