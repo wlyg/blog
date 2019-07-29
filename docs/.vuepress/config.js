@@ -35,6 +35,13 @@ module.exports = {
           '/algorithms/graph',
           '/algorithms/skipList'
         ]
+      },
+      {
+        title: '部署',
+        children: [
+          '/deploy/docker',
+          '/deploy/nginx'
+        ]
       }
     ]
   },
