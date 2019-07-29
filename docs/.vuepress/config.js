@@ -32,8 +32,8 @@ module.exports = {
       {
         title: '数据结构与算法',
         children: [
-          '/algorithms/1',
-          '/algorithms/2'
+          '/algorithms/graph',
+          '/algorithms/skipList'
         ]
       }
     ]
