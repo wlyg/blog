@@ -1,1 +1,3 @@
-dist
+/dist
+!/dist/404.html
+!/dist/index.html

@@ -613,7 +613,7 @@ export default {
       const commentConfig = {
         clientID: 'e62dbe7763ccbf467cda',
         clientSecret: '9b20eb399568a4a71e89224106c19725b2ef856c',
-        repo: 'blog',
+        repo: 'comment',
         owner: 'wlyg',
         admin: ['wlyg'],
         id: location.pathname,
