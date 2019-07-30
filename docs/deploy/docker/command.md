@@ -1,5 +1,4 @@
-# Docker
-### 常用命令
+# Docker常用命令
 ```
 安装: curl -s https://get.docker.com | bash  
 添加ubuntu用户到docker用户组: sudo usermod -aG docker ubuntu  

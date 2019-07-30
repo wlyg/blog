@@ -42,8 +42,25 @@ module.exports = {
       {
         title: '部署',
         children: [
-          '/deploy/docker',
-          '/deploy/nginx'
+          {
+            title: 'docker',
+            children: [
+              '/deploy/docker/command',
+              '/deploy/docker/dockerfile'
+            ]
+          },
+          {
+            title: 'nginx',
+            children: [
+              '/deploy/nginx/nginx'
+            ]
+          },
+          {
+            title: 'jenkins',
+            children: [
+              '/deploy/jenkins/install'
+            ]
+          }
         ]
       }
     ]
