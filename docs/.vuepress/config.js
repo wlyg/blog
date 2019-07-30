@@ -3,7 +3,7 @@ module.exports = {
   description: 'Just test',
   themeConfig: {
     nav: [
-      { text: '联系我', link: '/navigator/navigator' },
+      { text: '联系我', link: '/navigator/contact' },
     ],
     sidebar: [
       {
@@ -12,22 +12,19 @@ module.exports = {
           {
             title: 'mysql',
             children: [
-              '/database/mysql/1',
-              '/database/mysql/2'
+              '/database/mysql/1'
             ]
           },
           {
             title: 'redis',
             children: [
-              '/database/redis/1',
-              '/database/redis/2'
+              '/database/redis/introduction'
             ]
           },
           {
             title: 'mongoDB',
             children: [
-              '/database/mongoDB/1',
-              '/database/mongoDB/2'
+              '/database/mongoDB/explain'
             ]
           }
         ]
