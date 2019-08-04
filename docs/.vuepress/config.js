@@ -12,7 +12,8 @@ module.exports = {
           {
             title: 'mysql',
             children: [
-              '/database/mysql/1'
+              '/database/mysql/myisam',
+              '/database/mysql/innodb'
             ]
           },
           {
