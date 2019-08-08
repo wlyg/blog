@@ -13,7 +13,8 @@ module.exports = {
             title: 'mysql',
             children: [
               '/database/mysql/myisam',
-              '/database/mysql/innodb'
+              '/database/mysql/innodb',
+              '/database/mysql/lock'
             ]
           },
           {
