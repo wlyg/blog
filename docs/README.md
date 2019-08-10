@@ -1,4 +1,6 @@
 # Welcome
 ::: tip 个人笔记
-:fire:使用Vuepress + Gitalk实现
+框架：Vuepress<br>
+评论模块：Gitalk<br>
+部署：Nginx + Jenkins
 :::
