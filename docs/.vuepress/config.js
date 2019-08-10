@@ -10,8 +10,16 @@ module.exports = {
         title: '数据库',
         children: [
           {
+            title: '数据库基础',
+            children: [
+              '/database/base/base'
+            ]
+          },
+          {
             title: 'mysql',
             children: [
+              '/database/mysql/mvcc',
+              '/database/mysql/log',
               '/database/mysql/myisam',
               '/database/mysql/innodb',
               '/database/mysql/lock'

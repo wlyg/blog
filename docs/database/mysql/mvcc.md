@@ -1,0 +1,2 @@
+# MySQL InnoDB 的多版本并发控制
+&emsp;&emsp;MVCC全称Mutli Version Concurreny Control,多版本并发控制，也可称之为一致性非锁定读；它通过行的多版本控制方式来读取当前执行时间数据库中的行数据。实质上使用的是快照数据，这样就可以实现不加锁读。MVCC 主要应用于 Read Commited  和 Repeatable read  两个事务隔离级别。
