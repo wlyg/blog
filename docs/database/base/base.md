@@ -11,12 +11,12 @@
 ## 数据库事务
 #### Propagation （事务的传播属性）
 ```
-- PROPAGATION_REQUIRED--支持当前事务，如果当前没有事务，就新建一个事务。这是最常见的选择。
-- PROPAGATION_SUPPORTS--支持当前事务，如果当前没有事务，就以非事务方式执行。
-- PROPAGATION_MANDATORY--支持当前事务，如果当前没有事务，就抛出异常。
-- PROPAGATION_REQUIRES_NEW--新建事务，如果当前存在事务，把当前事务挂起。
-- PROPAGATION_NOT_SUPPORTED--以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。
-- PROPAGATION_NEVER--以非事务方式执行，如果当前存在事务，则抛出异常。
+- PROPAGATION_REQUIRED：支持当前事务，如果当前没有事务，就新建一个事务。这是最常见的选择。
+- PROPAGATION_SUPPORTS：支持当前事务，如果当前没有事务，就以非事务方式执行。
+- PROPAGATION_MANDATORY：支持当前事务，如果当前没有事务，就抛出异常。
+- PROPAGATION_REQUIRES_NEW：新建事务，如果当前存在事务，把当前事务挂起。
+- PROPAGATION_NOT_SUPPORTED：以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。
+- PROPAGATION_NEVER：以非事务方式执行，如果当前存在事务，则抛出异常。
 ```
 #### 数据库事务的四大特性（简称ACID）
 - **原子性（Atomicity）**：事务的原子性指的是，事务中包含的程序作为数据库的逻辑工作单位，它所做的对数据修改操作要么全部执行，要么完全不执行。这种特性称为原子性。
