@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Hello VuePress',
+  title: 'Welcome',
   description: 'Just test',
   themeConfig: {
     nav: [
@@ -20,7 +20,8 @@ module.exports = {
           {
             title: 'redis',
             children: [
-              '/database/redis/introduction'
+              '/database/redis/introduction',
+              '/database/redis/redission'
             ]
           },
           {

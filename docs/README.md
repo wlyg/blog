@@ -1,4 +1,4 @@
 # Welcome
 ::: tip 个人笔记
-:fire:
+:fire:使用Vuepress + Gitalk实现
 :::
