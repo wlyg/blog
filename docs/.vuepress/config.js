@@ -74,7 +74,7 @@ module.exports = {
       {
         title: 'java',
         children: [
-          '/java/todo',
+          '/java/jvmmodel',
         ]
       },
       {
