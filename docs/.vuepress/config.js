@@ -75,6 +75,7 @@ module.exports = {
         title: 'java',
         children: [
           '/java/jvmmodel',
+          '/java/jmmmodel',
         ]
       },
       {
