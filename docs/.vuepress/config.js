@@ -12,7 +12,8 @@ module.exports = {
           {
             title: '数据库基础',
             children: [
-              '/database/base/base'
+              '/database/base/base',
+              '/database/base/transaction'
             ]
           },
           {
@@ -72,14 +73,14 @@ module.exports = {
         ]
       },
       {
-        title: 'java',
+        title: 'Java',
         children: [
           '/java/jvmmodel',
           '/java/jmmmodel',
         ]
       },
       {
-        title: '微服务',
+        title: 'Spring',
         children: [
           '/microservices/springcloud',
         ]
