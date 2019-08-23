@@ -7,6 +7,12 @@ module.exports = {
     ],
     sidebar: [
       {
+        title: '操作系统',
+        children: [
+          '/os/syscall'
+        ]
+      },
+      {
         title: '数据库',
         children: [
           {
