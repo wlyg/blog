@@ -9,7 +9,8 @@ module.exports = {
       {
         title: '操作系统',
         children: [
-          '/os/syscall'
+          '/os/syscall',
+          '/os/epoll'
         ]
       },
       {
