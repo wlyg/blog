@@ -37,7 +37,8 @@ module.exports = {
             title: 'redis',
             children: [
               '/database/redis/introduction',
-              '/database/redis/redission'
+              '/database/redis/redission',
+              '/database/redis/cache'
             ]
           },
           {
