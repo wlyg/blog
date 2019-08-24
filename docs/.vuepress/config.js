@@ -84,6 +84,7 @@ module.exports = {
         children: [
           '/java/jvmmodel',
           '/java/jmmmodel',
+          '/java/nio',
         ]
       },
       {
