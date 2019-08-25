@@ -19,8 +19,7 @@ module.exports = {
           {
             title: '数据库基础',
             children: [
-              '/database/base/base',
-              '/database/base/transaction'
+              '/database/base/base'
             ]
           },
           {
@@ -37,7 +36,6 @@ module.exports = {
             title: 'redis',
             children: [
               '/database/redis/introduction',
-              '/database/redis/redission',
               '/database/redis/cache'
             ]
           },
@@ -54,6 +52,53 @@ module.exports = {
         children: [
           '/algorithms/graph',
           '/algorithms/skipList'
+        ]
+      },
+      {
+        title: '设计模式',
+        children: [
+          '/designpattern/introduction'
+        ]
+      },
+      {
+        title: 'Java',
+        children: [
+          '/java/jvmmodel',
+          '/java/jmmmodel',
+          '/java/nio',
+        ]
+      },
+      {
+        title: 'Spring',
+        children: [
+        ]
+      },
+      {
+        title: '分布式',
+        children: [
+          {
+            title: 'SpringCloud',
+            children: [
+              'distributed/springcloud/introduction'
+            ]
+          },
+          {
+            title: '分布式事务',
+            children: [
+              '/distributed/transaction/introduction'
+            ]
+          },
+          {
+            title: '分布式锁',
+            children: [
+              '/distributed/lock/redission'
+            ]
+          }
+        ]
+      },
+      {
+        title: '网络',
+        children: [
         ]
       },
       {
@@ -79,21 +124,7 @@ module.exports = {
             ]
           }
         ]
-      },
-      {
-        title: 'Java',
-        children: [
-          '/java/jvmmodel',
-          '/java/jmmmodel',
-          '/java/nio',
-        ]
-      },
-      {
-        title: 'Spring',
-        children: [
-          '/microservices/springcloud',
-        ]
-      },
+      }
     ]
   },
 }
